@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+    <div class="mother">
+
+      <div class="sec1">
+        <div class="inputDiv" >
+          <p>DAY</p>
+          <input id="day" type="number">
+        </div>
+        <div class="inputDiv">
+          <p>MONTH</p>
+          <input id="month" type="number">
+        </div>
+        <div class="inputDiv">
+          <p>YEAR</p>
+          <input id="year" type="number">
+        </div>
+      </div>
+      <button  onclick="calc()" class="btn"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg></button>
+      <div class="sec2Div">
+        <div class="DOB"><span class="span" id="spanyear">--</span> <p>years</p></div>
+        <div class="DOB"><span class="span" id="spanmonth">--</span> </span><p>months</p></div>
+        <div class="DOB"><span class="span" id="spanday">--</span> <p>days</p></div>
+      </div>
+
+    </div>
+<script src="script.js"></script>
+  
+</body>
+</html>
